@@ -46,14 +46,15 @@
 <a name="centos" class="anchor" href="#centos"><span class="octicon octicon-link"></span>
 CentOS 6.4 x64
 <pre><code>
-$ cd /tmp
-$ curl -O https://raw.github.com/fluxlabs/baruwa/master/2.0/cent6/install.sh
+cd /tmp
+curl -O https://raw.github.com/fluxlabs/baruwa/master/2.0/cent6/install.sh
+
 </code></pre>
 
 <p>You can now either sh install.sh, or edit the script for a complete auto-install.</p>
 
 <pre><code>
-$ nano -w install.sh
+nano -w install.sh
 </code></pre>
 
 <pre><code>
@@ -100,10 +101,10 @@ $ nano -w install.sh
 	timezone=America/Chicago
 
 	# MailScanner Organization Name - Long
-	msorgname='Your Organization'
+	msorgnamelong='Your Organization'
 
 	# MailScanner Organization Name - Short (No Spaces)
-	msorgnamelong='YourOrganization'
+	msorgname='YourOrganization'
 
 	# SSL Country Code
 	sslcountry='US'
@@ -113,14 +114,16 @@ $ nano -w install.sh
 
 	# SSL City Name
 	sslcity='Chicago'
+	
 </code></pre>
 
 <br/>
 <a name="ubuntu" class="anchor" href="#ubuntu"><span class="octicon octicon-link"></span>
 Ubuntu 12 - Precise/Quantal (Should work, not as developed as CENT OS)
 <pre><code>
-$ cd /tmp
-$ curl -O https://raw.github.com/fluxlabs/baruwa/master/2.0/ubuntu12/install.sh
+cd /tmp
+curl -O https://raw.github.com/fluxlabs/baruwa/master/2.0/ubuntu12/install.sh
+sh install.sh
 </code></pre>
 
 <a name="support" class="anchor" href="#support"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
