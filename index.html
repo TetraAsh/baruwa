@@ -21,8 +21,8 @@
         <p>Installers &amp; Additions to Baruwa 2.0</p>
         <p class="view"><a href="https://github.com/fluxlabs/baruwa">View the Project on GitHub <small>fluxlabs/baruwa</small></a></p>
         <ul>
-          <li><a href="https://github.com/fluxlabs/baruwa/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/fluxlabs/baruwa/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="#centos">Download <strong>Cent OS</strong></a></li>
+          <li><a href="#ubuntu">Download <strong>Ubuntu</strong></a></li>
           <li><a href="https://github.com/fluxlabs/baruwa">View On <strong>GitHub</strong></a></li>
         </ul>
       </header>
@@ -116,12 +116,12 @@ nano -w install.sh
 <h3>
 <a name="ubuntu" class="anchor" href="#ubuntu"><span class="octicon octicon-link"></span></a>Ubuntu</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<pre><code>
+cd /tmp
+curl -O https://raw.github.com/fluxlabs/baruwa/master/2.0/ubuntu12/install.sh
+sh install.sh
+</code></pre>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
 
 <h3>
 <a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
@@ -135,8 +135,7 @@ nano -w install.sh
       </section>
     </div>
     <footer>
-      <p>Project maintained by <a href="https://github.com/fluxlabs">fluxlabs</a></p>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+      <p>Project maintained by <a href="https://www.fluxlabs.net">Flux Labs</a></p>
     </footer>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
               <script type="text/javascript">
