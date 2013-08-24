@@ -47,7 +47,7 @@
 <hr>
 <pre><code>
 cd /tmp
-curl -O https://raw.github.com/fluxlabs/baruwa/master/2.0/cent6/install.sh
+curl -O https://raw.github.com/fluxlabs/baruwa/master/2.0/centos/install.sh
 </code></pre>
 
 <p>You can now either <code>sh install.sh</code> or edit the script for a complete auto-install.</p>
@@ -138,17 +138,25 @@ Enter Choice::
 
 <pre><code>
 cd /tmp
-curl -O https://raw.github.com/fluxlabs/baruwa/master/2.0/ubuntu12/install.sh
+curl -O https://raw.github.com/fluxlabs/baruwa/master/2.0/ubuntu/install.sh
 sh install.sh
 </code></pre>
 
 <h3>
 <a name="admin" class="anchor" href="#admin"><span class="octicon octicon-link"></span></a>Baruwa-Admin</h3>
 <p>This is a small utility to help you do the day to day/routine maintenance on a baruwa system.</p>
-
+<br/>
+<h2>Centos Baruwa-Admin
 <pre><code>
 cd /usr/sbin
-curl -O https://raw.github.com/fluxlabs/baruwa/master/2.0/extras/baruwa-admin
+curl -O https://raw.github.com/fluxlabs/baruwa/master/2.0/extras/centos/baruwa-admin
+chmod +x baruwa-admin
+</code></pre>
+<br/
+<h2>Ubuntu Baruwa-Admin</h2>
+<pre><code>
+cd /usr/sbin
+curl -O https://raw.github.com/fluxlabs/baruwa/master/2.0/extras/ubuntu/baruwa-admin
 chmod +x baruwa-admin
 </code></pre>
 <p>You can execute <code>baruwa-admin</code> from any location on your system. (Will require root if you placed it in /usr/sbin)<p/>
