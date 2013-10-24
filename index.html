@@ -26,7 +26,6 @@
           <li><a href="#admin">Download <strong>Admin</strong></a></li>
           <li><a href="#support">Get <strong>Support</strong></a></li>
           <li><a href="https://www.github.com/fluxlabs/baruwa" target=_blank>View On <strong>GitHub</strong></a></li>
-          <li><a href="changelog.html">View <strong>Change Log</strong></a></li>
         </ul>
       </header>
       <section>
@@ -126,24 +125,20 @@ Welcome to the Baruwa 2.0 Installer for Cent OS/RHEL x86_64!
 
 Please make a choice:
 
-a) Install Baruwa 2.0 (Complete)
-b) Install Additional SpamAsassin Rules
+a) Install Baruwa 2.0 (Complete Install)
+b) Install Additional SpamAssassin Rules
 c) Install Unofficial ClamAV Signatures
-d) Install Baruwa-Admin
-e) Cleanup Installer
+d) Install SAGrey (GreyList via SpamAssassin)
+e) Install Baruwa-Admin
+f) Cleanup Installer
+g) Remove Unofficial ClamAV Signatures
+h) Remove SAGrey
 
 x) Exit
 Enter Choice::
 </pre></code>
 <br/>
 <h3>
-<a name="ubuntu" class="anchor" href="#ubuntu"><span class="octicon octicon-link"></span></a>Ubuntu (Currently Beta)</h3><h4>
-<hr noshade>
-<pre><code>
-cd /tmp
-curl -O https://raw.github.com/fluxlabs/baruwa/master/2.0/ubuntu/install.sh
-sh install.sh
-</code></pre>
 
 <h3><a name="admin" class="anchor" href="#admin"><span class="octicon octicon-link"></span></a>Baruwa-Admin</h3>
 <hr noshade>
@@ -156,14 +151,7 @@ curl -O https://raw.github.com/fluxlabs/baruwa/master/2.0/extras/centos/baruwa-a
 chmod +x baruwa-admin
 </code></pre>
 <br/>
-<h4>Ubuntu Baruwa-Admin</h4>
-<hr noshade>
-<pre><code>
-!! !! DOES NOT EXIST YET !! !!
-cd /usr/sbin
-curl -O https://raw.github.com/fluxlabs/baruwa/master/2.0/extras/ubuntu/baruwa-admin
-chmod +x baruwa-admin
-</code></pre>
+
 <p>You can execute <code>baruwa-admin</code> from any location on your system. (Will require root if you placed it in /usr/sbin)<p/>
 
 <code><pre>
